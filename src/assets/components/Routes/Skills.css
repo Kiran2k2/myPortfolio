@@ -1,0 +1,143 @@
+body{
+    background-color: #111111;
+}
+
+.main-tech{
+    display: flex;
+    /* border: 2px solid green; */
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background: #000; */
+    /* position: relative; */
+    /* height: 600px; */
+
+}
+.main-tech h2{
+    color: rgb(177, 14, 96);
+    
+    margin: 10px auto;
+    font-size: 35px;
+}
+.tech-sec{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    /* width: 950px; */
+    /* width: auto; */
+    /* margin: 100px auto; */
+   margin-left: 90px;
+    gap: 50px;
+    padding: 30px;
+    align-items: center;
+    /* width: 75%; */
+    /* position: absolute;
+    left: 280px;
+    top: 50px; */
+  height:400px;
+}
+.tech-sec div{
+    width: 11%;
+    height: 18vh;
+    max-height: 140px;
+    box-shadow: var(--shadow);
+    z-index: 1;
+    border-radius: 20px;
+    margin: 2.5%;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s ease 0s;
+    border: 2px solid rgb(219, 26, 100);
+}
+.tech-sec div:hover {
+    background-color: var(--clr-bg);
+    overflow: hidden;
+    transform: scale(1.08);
+    box-shadow: rgba(54, 4, 4, 0.36) 0px 10px 36px 0px,
+      rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    border: 1px solid rgb(114, 3, 40);
+  }
+  .tech-sec div .html{
+    font-size: 8vh;
+  color: red;
+    
+  }
+  .tech-sec div .css{
+    font-size: 8vh;
+  color: rgb(70, 82, 252);
+    
+  }
+  .tech-sec div .js{
+    font-size: 8vh;
+  color: rgb(250, 253, 57);
+    
+  }
+  .tech-sec div .react{
+    font-size: 8vh;
+  color: rgb(146, 161, 245);
+    
+  }
+  .tech-sec div .mongo{
+    font-size: 8vh;
+  color: rgb(70, 223, 65);
+    
+  }
+  .tech-sec div .node{
+    font-size: 8vh;
+  color: rgb(35, 156, 31);
+    
+  }
+  .tech-sec div .sql{
+    font-size: 8vh;
+  color: orangered;
+    
+  }
+  .tech-sec div .exp{
+    font-size: 8vh;
+  color: rgb(134, 138, 134);
+    
+  }
+
+
+  .tech-sec div h5{
+    color: white;
+    /* font-size: 30px; */
+  }
+
+@media (min-width: 320px) and (max-width:480px){
+
+  .main-tech{
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .tech-sec{
+    width: 100%;
+    /* border: 2px solid red; */
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    /* left: 85px; */
+    display: flex;
+    flex-direction: row;
+/* margin-left: 160px; */
+    /* margin-top: 200px; */
+    /* top: 120px; */
+  }
+  .tech-sec div{
+    width: 28%;
+    flex-wrap: wrap;
+  
+    height: 18vh;
+  
+  }
+  .main-tech h2{
+    margin-top: 280px;
+    margin-left: 180px;
+  }
+}

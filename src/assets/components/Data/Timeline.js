@@ -1,0 +1,26 @@
+export let timelineElement=[
+    {
+        id:1,
+        tittle:"bnnnmmm",
+        date:"lkjhgfdfghjkl",
+        desc:"xfghjkjhgcvbn,mnbvccvjkjhgfdsdfghj"
+    },
+    {
+        id:2,
+        tittle:"dfghjklkjhv",
+        date:"dfghjk",
+        desc:"asdfghjklmnbvcxz"
+    },
+    {
+        id:3,
+        tittle:"",
+        date:"",
+        desc:""
+    },
+    {
+        id:4,
+        tittle:"",
+        date:"",
+        desc:""
+    }
+]
